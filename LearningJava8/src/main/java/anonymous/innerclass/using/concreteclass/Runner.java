@@ -1,4 +1,4 @@
-package anonymous.innerclass.usingconcreteclass;
+package anonymous.innerclass.using.concreteclass;
 
 public class Runner {
 
@@ -17,9 +17,9 @@ public class Runner {
 		child.leaveAsset();
 		child.findPartner(); // this method will call the above implementation
 		
-		//to call findPartner in Parent class
-		Parent parent = new Parent();
-		parent.findPartner();
+		//to call findPartner in Parent class 
+		 Parent parent = new Parent();
+			parent.findPartner();
 	}
 
 }

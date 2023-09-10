@@ -1,4 +1,4 @@
-package anonymous.innerclass.usingconcreteclass;
+package anonymous.innerclass.using.concreteclass;
 
 public class Parent {
 
