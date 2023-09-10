@@ -1,4 +1,4 @@
-package anonymous.innerclass;
+package anonymous.innerclass.usingconcreteclass;
 
 public class Runner {
 
