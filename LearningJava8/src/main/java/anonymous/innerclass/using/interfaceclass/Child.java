@@ -1,6 +1,6 @@
 package anonymous.innerclass.using.interfaceclass;
 
-public class Child implements Parent{
+public class Child implements IParent{
 
 	@Override
 	public void findPartner() {	

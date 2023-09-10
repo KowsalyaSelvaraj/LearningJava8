@@ -3,7 +3,7 @@ package anonymous.innerclass.using.interfaceclass;
 public class Runner {
 
 	public static void main(String[] args) {
-		Parent childParent = new Parent() {
+		IParent childParent = new IParent() {
 			public void findPartner() {
 				System.out.println("Child finds his/her partner by himself in interface class");
 			}
@@ -13,7 +13,7 @@ public class Runner {
 		childParent.findPartner(); 
 		
 		
-		Parent parent = new Child(); //Parent parent1 = new Parent(); Cannot instantiate the type Parent as it is a interface
+		IParent parent = new Child(); //Parent parent1 = new Parent(); Cannot instantiate the type Parent as it is a interface
 		
 		parent.findPartner(); //calls from Child Class 
 	}
