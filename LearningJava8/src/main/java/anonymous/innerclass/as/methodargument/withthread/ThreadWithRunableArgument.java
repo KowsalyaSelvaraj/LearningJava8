@@ -7,7 +7,6 @@ public class ThreadWithRunableArgument {
 		//Instead of creating a separate class we are using method argument inside the constructor itself
 		Thread thread = new Thread(new Runnable() {
 
-			@Override
 			public void run() {
 				for(int i=0;i<5;i++) {
 					System.out.println("Thread "+i+" is running");

@@ -20,7 +20,6 @@ public class Runner {
 				System.out.println("Straight ah avanga parents kaala vilunthuda vendiyathutha - method arguments");
 			}
 
-			@Override
 			public void manageFinance() {
 				System.out.println("Finance - Bank a svings erukku atha vechi manage pannikalam - method arguments");
 				
