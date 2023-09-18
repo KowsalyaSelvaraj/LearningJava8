@@ -9,8 +9,8 @@ public class Runner {
 		
 		//Normal way of calling a method
 		//create a instance for the interface and pass that to canmanage. 
-		IManagableChild child = new ChildImplementation();
-		friend.canManage(child);
+		IManagableChild child1 = new ChildImplementation();
+		friend.canManage(child1);
 		
 		
 		//passing anonymous inner class as method argument
