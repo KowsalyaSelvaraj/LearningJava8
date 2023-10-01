@@ -11,9 +11,10 @@ public class ShowHiddenFiles{
 
 		File[] hiddenFiles = allfiles.listFiles(new FileFilter() { // list file implementation is given below
 
-		
+
 			public boolean accept(File pathname) {
-			System.out.println("inside accet method");
+
+				System.out.println("inside accet method");
 				return pathname.isHidden();
 			}
 
@@ -24,8 +25,6 @@ public class ShowHiddenFiles{
 			System.out.println(file.getName());
 		}
 	}
-
-
 }
 
 //public File[] listFiles(FileFilter filter) {
